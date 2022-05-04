@@ -167,7 +167,7 @@ def pregunta_04():
 
     mse_test = mean_squared_error(
         y_test_pred,
-        y_train,
+        y_test,
     ).round(2)
 
     # Retorne el error cuadrático medio para entrenamiento y prueba
