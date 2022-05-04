@@ -88,7 +88,7 @@ def pregunta_03():
             # las variables.
             (
                 "column_transfomer",
-                make_column_transforme(
+                make_column_transformer(
                     (
                         OneHotEncoder(),
                         make_column_selector(dtype_include=object),
